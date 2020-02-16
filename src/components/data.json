@@ -1,53 +1,136 @@
 {
     "team": [
         {
-            "name": "name",
-            "surname": "surname",
-            "tag": "tag",
+            "name": "MESUT",
+            "surname": "KILINCASLAN",
+            "tag": "Lead Developer & Lead Marketer",
             "socialMedia": {
-                "fb": "facebook",
-                "ln": "linkedin",
-                "tw": "twitter",
-                "in": "instagram"
+                "fb": "facebook.com/kilincaslanmesut",
+                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
+                "tw": "https://twitter.com/mesutklncaslan",
+                "in": "https://instagram.com/mesut.kilincaslan"
             },
-            "imageURL": "image"
+            "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHqq3Pi2V0v7w/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=2GgLh1UGb9DIO5HZKR8MLBAFGJtvLGXBBWV2o7KaZSg"
+        },
+        {
+            "name": "HARUN",
+            "surname": "DEMİR",
+            "tag": "Cyber Developer",
+            "socialMedia": {
+                "fb": "facebook.com/kilincaslanmesut",
+                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
+                "tw": "https://twitter.com/mesutklncaslan",
+                "in": "https://instagram.com/mesut.kiliEkimncaslan"
+            },
+            "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHqq3Pi2V0v7w/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=2GgLh1UGb9DIO5HZKR8MLBAFGJtvLGXBBWV2o7KaZSg"
+        },
+        {
+            "name": "SELİN",
+            "surname": "ARSLANBULUT",
+            "tag": "Developer",
+            "socialMedia": {
+                "fb": "facebook.com/kilincaslanmesut",
+                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
+                "tw": "https://twitter.com/mesutklncaslan",
+                "in": "https://instagram.com/mesut.kilincaslan"
+            },
+            "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHqq3Pi2V0v7w/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=2GgLh1UGb9DIO5HZKR8MLBAFGJtvLGXBBWV2o7KaZSg"
+        },
+        {
+            "name": "SAMİ",
+            "surname": "DÖNMEZ",
+            "tag": "PHP Developer",
+            "socialMedia": {
+                "fb": "facebook.com/kilincaslanmesut",
+                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
+                "tw": "https://twitter.com/mesutklncaslan",
+                "in": "https://instagram.com/mesut.kilincaslan"
+            },
+            "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHqq3Pi2V0v7w/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=2GgLh1UGb9DIO5HZKR8MLBAFGJtvLGXBBWV2o7KaZSg"
+        },
+        {
+            "name": "PINAR",
+            "surname": "SAVCI",
+            "tag": "Developer",
+            "socialMedia": {
+                "fb": "facebook.com/kilincaslanmesut",
+                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
+                "tw": "https://twitter.com/mesutklncaslan",
+                "in": "https://instagram.com/mesut.kilincaslan"
+            },
+            "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHqq3Pi2V0v7w/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=2GgLh1UGb9DIO5HZKR8MLBAFGJtvLGXBBWV2o7KaZSg"
         }
     ],
     "services": [
         {
-            "name": "name",
-            "description": "desc",
-            "icon": "icon"
+            "name": "Güvenlik",
+            "description": "Web, mobil ve sunucu güvenliği için çalışmalar, yarışmalar ve etkinlikler!",
+            "icon": "fas fa-lock fa-stack-1x fa-inverse"
+        },
+        {
+            "name": "Mobil Oyun",
+            "description": "Java, Unity ve Unreal Engine ile mobil oyun çalışmaları!",
+            "icon": "fas fa-chess-pawn fa-stack-1x fa-inverse"
+        },
+        {
+            "name": "Mobil Uygulamalar",
+            "description": "IOS/Android native mobil uygulamalar!",
+            "icon": "fas fa-mobile fa-stack-1x fa-inverse"
+        },
+        {
+            "name": "Web Yazılımları",
+            "description": "Yeni teknolojiler ile hızlı ve güvenilir web yazılımı ürünleri!",
+            "icon": "fas fa-aws fa-stack-1x fa-inverse"
         }
     ],
     "products": [
         {
-            "name": "name",
-            "subTitle": "subTitle",
-            "description": "desc",
-            "imageURL": "image",
-            "category": "category",
-            "date": "date"
+            "name": "hadibibul",
+            "subTitle": "Türkiye'nin En İyi Öğrenci Platformu!",
+            "description": "Türkiye'deki tüm üniversite öğrencilerinin ihtiyaç duydukları birbileri ile olan iletişim ağı olmak ve üniversite hayatları boyunca gerek görülen ders notu, ev devri/ev arkadaşı, ev eşyası gibi konularda ara buluculuğu hızlandırmak ve kolaylaştırmak.",
+            "imageURL": "https://hadibibul.com/images/LogoMakr_8EfKUO.png",
+            "category": "Web & Mobil Servis",
+            "date": "Haziran 2019"
+        },
+        {
+            "name": "PARS",
+            "subTitle": "Uçtan Uca Şifreleme!",
+            "description": "PARS iki kişi arasında yüksek güvenlikli mesajlaşma altyapısı sunan bir sistemdir. Kullanıcılara özel atanan anahtarlar ile yüksek seviyede güvenlik ile iletişim sunar.",
+            "imageURL": "pars.png",
+            "category": "Web & Mobil Servis",
+            "date": "Kasım 2019"
         }
     ],
     "about": [
         {
-            "title": "title",
-            "description": "desc",
-            "imageURL": "image",
-            "date": "date"
+            "title": "Topluluk Kuruluşu",
+            "description": "Topluluk üyeleri olarak bir araya gelişimiz ve resmi olarak kuruluş!",
+            "imageURL": "1.jpg",
+            "date": "Eylül 2019"
+        },
+        {
+            "title": "NASA Hackathon",
+            "description": "Topluluk olarak NASA'nın düzenlemiş olduğu hackathon da 20 takım arasından ilk 5 başarımız!",
+            "imageURL": "2.jpg",
+            "date": "Ekim 2019"
+        },
+        {
+            "title": "Fütag Capture The Flag",
+            "description": "Üniversitemiz kulüplerinden Fütag'ın gerçekleştirdiği Capture The Flag(CTF) etkinliğinde birincilik başarımız!",
+            "imageURL": "3.jpg",
+            "date": "Aralık 2019"
         }
     ],
     "clients": [
         {
-            "logo": "logo",
-            "link": "link"
+            "logo": "https://hadibibul.com/images/LogoMakr_8EfKUO.png",
+            "link": "https://hadibibul.com"
         }
     ],
     "socialMedia": {
-        "fb": "facebook",
+        "fb": "https://www.facebook.com/chronobi",
         "ln": "linkedin",
-        "tw": "twitter",
-        "in": "instagram"
+        "tw": "https://twitter.com/chronobi",
+        "in": "https://www.instagram.com/choronobi/"
     }
 }
