@@ -1,0 +1,53 @@
+{
+    "team": [
+        {
+            "name": "name",
+            "surname": "surname",
+            "tag": "tag",
+            "socialMedia": {
+                "fb": "facebook",
+                "ln": "linkedin",
+                "tw": "twitter",
+                "in": "instagram"
+            },
+            "imageURL": "image"
+        }
+    ],
+    "services": [
+        {
+            "name": "name",
+            "description": "desc",
+            "icon": "icon"
+        }
+    ],
+    "products": [
+        {
+            "name": "name",
+            "subTitle": "subTitle",
+            "description": "desc",
+            "imageURL": "image",
+            "category": "category",
+            "date": "date"
+        }
+    ],
+    "about": [
+        {
+            "title": "title",
+            "description": "desc",
+            "imageURL": "image",
+            "date": "date"
+        }
+    ],
+    "clients": [
+        {
+            "logo": "logo",
+            "link": "link"
+        }
+    ],
+    "socialMedia": {
+        "fb": "facebook",
+        "ln": "linkedin",
+        "tw": "twitter",
+        "in": "instagram"
+    }
+}
