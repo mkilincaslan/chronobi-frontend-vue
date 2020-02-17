@@ -2,10 +2,10 @@
   <div id="app">
     <app-nav-bar/>
     <app-header/>
-    <app-services/>
-    <app-products/>
-    <app-about/>
-    <app-team/>
+    <app-services v-bind:items="ServicesItem" />
+    <app-products v-bind:items="ProductItem"/>
+    <app-about v-bind:items="AboutItem"/>
+    <app-team v-bind:items="TeamItem"/>
     <app-clients/>
     <app-contacts/>
     <app-footer/>
@@ -24,7 +24,7 @@ import Clients from './components/Clients';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
-
+import json from "./components/data.json";
 export default {
   name: 'App',
   components: {
@@ -38,17 +38,24 @@ export default {
     appContacts: Contacts,
     appFooter: Footer,
     appModal: Modal
+  },
+  created(){
+   this.TeamItem=json.team;
+   this.AboutItem=json.about;
+   this.ProductItem=json.products;
+   this.ServicesItem=json.services;
+  },
+  data:function () {
+    return{
+      AboutItem:[],
+      ProductItem:[],
+      ServicesItem:[],
+      TeamItem:[]
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
