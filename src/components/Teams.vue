@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="row">
-              <app-team-Card v-for="item in items" v-bind:key='item' v-bind:item="item"/>
+              <app-team-card v-for="item in items" v-bind:key='item.id' v-bind:item="item"/>
       </div>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">

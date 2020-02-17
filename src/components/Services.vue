@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="row text-center">
-        <app-service-card v-for="item in items" v-bind:key='item' v-bind:item="item"/>
+        <app-service-card v-for="item in items" v-bind:key='item.id' v-bind:item="item"/>
       </div>
     </div>
   </section>

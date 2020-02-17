@@ -11,7 +11,7 @@
       <div class="row">
         <div class="col-lg-12">
           <ul class="timeline">
-            <app-About-Card v-for="item in items" v-bind:key='item' v-bind:item="item"/>
+            <app-About-Card v-for="item in items" v-bind:key='item.id' v-bind:item="item"/>
           </ul>
         </div>
       </div>

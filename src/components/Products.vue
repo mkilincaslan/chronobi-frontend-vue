@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="row">
-        <app-Product-Card v-for="item in items" v-bind:key='item' v-bind:item="item"/>
+        <app-product-card v-for="item in items" v-bind:key='item.id' v-bind:item="item"/>
       </div>
     </div>
   </section>
