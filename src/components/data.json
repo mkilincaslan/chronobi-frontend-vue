@@ -88,7 +88,7 @@
             "name": "hadibibul",
             "subTitle": "Türkiye'nin En İyi Öğrenci Platformu!",
             "description": "Türkiye'deki tüm üniversite öğrencilerinin ihtiyaç duydukları birbileri ile olan iletişim ağı olmak ve üniversite hayatları boyunca gerek görülen ders notu, ev devri/ev arkadaşı, ev eşyası gibi konularda ara buluculuğu hızlandırmak ve kolaylaştırmak.",
-            "imageURL": "https://hadibibul.com/images/LogoMakr_8EfKUO.png",
+            "imageURL": "hadibibul.png",
             "category": "Web & Mobil Servis",
             "date": "Haziran 2019"
         },
@@ -123,7 +123,7 @@
     ],
     "clients": [
         {
-            "logo": "https://hadibibul.com/images/LogoMakr_8EfKUO.png",
+            "logo": "hadibibul.png",
             "link": "https://hadibibul.com"
         }
     ],

@@ -3,34 +3,24 @@
   <section class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
+        <app-client-card v-for="item in items" v-bind:key='item.id' v-bind:item="item"/>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import ClientCard from "./ClientCard";
 export default {
-
+props:{
+  items:{
+    type:Array,
+    required:true
+  }
+},
+components:{
+  appClientCard:ClientCard
+}
 }
 </script>
 

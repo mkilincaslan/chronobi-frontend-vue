@@ -6,9 +6,9 @@
     <app-products v-bind:items="ProductItem"/>
     <app-about v-bind:items="AboutItem"/>
     <app-team v-bind:items="TeamItem"/>
-    <app-clients/>
+    <app-clients v-bind:items="ClientsItem"/>
     <app-contacts/>
-    <app-footer/>
+    <app-footer v-bind:item="SocialItem"/>
     <app-modal/>
   </div>
 </template>
@@ -44,13 +44,17 @@ export default {
    this.AboutItem=json.about;
    this.ProductItem=json.products;
    this.ServicesItem=json.services;
+   this.ClientsItem=json.clients;
+   this.SocialItem=json.socialMedia;
   },
   data:function () {
     return{
       AboutItem:[],
       ProductItem:[],
       ServicesItem:[],
-      TeamItem:[]
+      TeamItem:[],
+      ClientsItem:[],
+      SocialItem:Object
     }
   }
 }
