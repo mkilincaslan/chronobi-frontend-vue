@@ -9,7 +9,7 @@
     <app-clients v-bind:items="ClientsItem"/>
     <app-contacts/>
     <app-footer v-bind:item="SocialItem"/>
-    <app-modal/>
+    <app-modal v-bind:items="ProductItem"/>
   </div>
 </template>
 
@@ -54,7 +54,10 @@ export default {
       ServicesItem:[],
       TeamItem:[],
       ClientsItem:[],
-      SocialItem:Object
+      SocialItem:Object,
+      isModelOpened:false,
+      selectedProductId:0,
+
     }
   }
 }

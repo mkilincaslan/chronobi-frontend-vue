@@ -85,20 +85,24 @@
     ],
     "products": [
         {
+            "id":0,
             "name": "hadibibul",
             "subTitle": "Türkiye'nin En İyi Öğrenci Platformu!",
             "description": "Türkiye'deki tüm üniversite öğrencilerinin ihtiyaç duydukları birbileri ile olan iletişim ağı olmak ve üniversite hayatları boyunca gerek görülen ders notu, ev devri/ev arkadaşı, ev eşyası gibi konularda ara buluculuğu hızlandırmak ve kolaylaştırmak.",
             "imageURL": "hadibibul.png",
             "category": "Web & Mobil Servis",
-            "date": "Haziran 2019"
+            "date": "Haziran 2019",
+            "client":"chronobi"
         },
-        {
+        {   
+            "id":1,
             "name": "PARS",
             "subTitle": "Uçtan Uca Şifreleme!",
             "description": "PARS iki kişi arasında yüksek güvenlikli mesajlaşma altyapısı sunan bir sistemdir. Kullanıcılara özel atanan anahtarlar ile yüksek seviyede güvenlik ile iletişim sunar.",
             "imageURL": "pars.png",
             "category": "Web & Mobil Servis",
-            "date": "Kasım 2019"
+            "date": "Kasım 2019",
+            "client":"chronobi"
         }
     ],
     "about": [
@@ -119,6 +123,12 @@
             "description": "Üniversitemiz kulüplerinden Fütag'ın gerçekleştirdiği Capture The Flag(CTF) etkinliğinde birincilik başarımız!",
             "imageURL": "3.jpg",
             "date": "Aralık 2019"
+        },
+        {
+            "title": "Depremzedelere tatlı Dagıtımı",
+            "description": "Topluluk üyeleri olarak regaip kandili edeni ile çadır kentte kalan depremzedelere tatlı dagıtımı yapılmıştır.",
+            "imageURL": "5.jpg",
+            "date": "Şubat 2020"
         }
     ],
     "clients": [

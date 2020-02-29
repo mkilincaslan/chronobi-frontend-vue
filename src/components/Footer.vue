@@ -7,36 +7,15 @@
           <span class="copyright">Copyright &copy; Your Website 2019</span>
         </div>
         <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a :href="item.tw">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a :href="item.fb">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a :href="item.ln">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a :href="item.in">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
+          <app-social-buttons :item="item" />
         </div>
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <a href="/privacy">Privacy Policy</a>
             </li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <a href="/term-of-use">Terms of Use</a>
             </li>
           </ul>
         </div>
@@ -46,6 +25,7 @@
 </template>
 
 <script>
+import SocialButtons from "./SocialButtons";
 export default {
 props:{
   item:{
@@ -53,6 +33,8 @@ props:{
     required:true
   }
 },
+components:{
+  appSocialButtons:SocialButtons}
 }
 </script>
 

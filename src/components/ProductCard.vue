@@ -1,6 +1,6 @@
 <template>
       <div class="col-md-4 col-sm-6 portfolio-item">
-      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+      <a class="portfolio-link" data-toggle="modal" :value="item.id" :href="'#portfolioModal'+item.id">
         <div class="portfolio-hover">
           <div class="portfolio-hover-content">
             <i class="fas fa-plus fa-3x"></i>
@@ -28,7 +28,8 @@ export default {
         imagepath:"assets/img/portfolio/",
       }
     }
-}
+  }
+
 </script>
 
 <style>

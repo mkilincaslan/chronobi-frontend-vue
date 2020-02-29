@@ -5,8 +5,8 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">{{item.name}}</h4>
+                  <h4>{{item.date}}</h4>
+                  <h4 class="subheading">{{item.title}}</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">{{item.description}}</p>
