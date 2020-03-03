@@ -1,6 +1,6 @@
 <template>
   <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
+            <li class="list-inline-item" >
               <a :href="item.tw">
                 <i class="fab fa-twitter"></i>
               </a>
