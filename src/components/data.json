@@ -3,12 +3,13 @@
         {
             "name": "MESUT",
             "surname": "KILINCASLAN",
-            "tag": "Lead Developer & Lead Marketer",
+            "tag": "Developer",
             "socialMedia": {
                 "fb": "facebook.com/kilincaslanmesut",
                 "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
                 "tw": "https://twitter.com/mesutklncaslan",
                 "in": "https://instagram.com/mesut.kilincaslan"
+
             },
             "imageURL": "mesut.jpeg"
         },
@@ -17,10 +18,11 @@
             "surname": "DEMİR",
             "tag": "Cyber Developer",
             "socialMedia": {
-                "fb": "facebook.com/kilincaslanmesut",
+
                 "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
-                "tw": "https://twitter.com/mesutklncaslan",
+
                 "in": "https://instagram.com/mesut.kiliEkimncaslan"
+
             },
             "imageURL": "harun.jpeg"
         },
@@ -29,22 +31,22 @@
             "surname": "ARSLANBULUT",
             "tag": "Developer",
             "socialMedia": {
-                "fb": "facebook.com/kilincaslanmesut",
-                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
-                "tw": "https://twitter.com/mesutklncaslan",
-                "in": "https://instagram.com/mesut.kilincaslan"
+                "ln": "https://www.linkedin.com/in/selin-arslanbulut-39a80b15a/",
+                "tw": "https://twitter.com/Seeelinnn",
+                "in": "https://www.instagram.com/selinarslanbulut/"
+
             },
-            "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHqq3Pi2V0v7w/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=2GgLh1UGb9DIO5HZKR8MLBAFGJtvLGXBBWV2o7KaZSg"
+            "imageURL": "selin.jpeg"
         },
         {
             "name": "SAMİ",
             "surname": "DÖNMEZ",
             "tag": "PHP Developer",
             "socialMedia": {
-                "fb": "facebook.com/kilincaslanmesut",
-                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
-                "tw": "https://twitter.com/mesutklncaslan",
-                "in": "https://instagram.com/mesut.kilincaslan"
+                "fb": "https://www.facebook.com/sami.donmez.5851",
+                "ln":"https://www.linkedin.com/in/sami-donmez/",
+                "in": "https://www.instagram.com/sami.donmez.1"
+
             },
             "imageURL": "sami.jpeg"
         },
@@ -53,12 +55,29 @@
             "surname": "SAVCI",
             "tag": "Developer",
             "socialMedia": {
-                "fb": "https://facebook.com/kilincaslanmesut",
-                "ln": "https://www.linkedin.com/in/mesut-kilincaslan-22417a151/",
-                "tw": "https://twitter.com/mesutklncaslan",
-                "in": "https://instagram.com/mesut.kilincaslan"
+
             },
-            "imageURL": "https://media-exp1.licdn.com/dms/image/C4E03AQHqq3Pi2V0v7w/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=2GgLh1UGb9DIO5HZKR8MLBAFGJtvLGXBBWV2o7KaZSg"
+            "imageURL": "pınar.jpeg"
+        },
+
+        {
+            "name": "FURKAN ",
+            "surname": "CEYRAN",
+            "tag": "Game Developer",
+            "socialMedia": {
+                "in": "https://instagram.com/af.ceyran?igshid=vr7yc9cwr4uk"
+            },
+            "imageURL": "furkan.jpg"
+        },
+        {
+            "name": "SERKAN ",
+            "surname": "KOÇAK",
+            "tag": "Makine Mühendisi",
+            "socialMedia": {
+                "ln": "https://www.linkedin.com/in/serkan-ko%C3%A7ak-864162168/",
+                "in": "https://www.instagram.com/serkankocakk3/"
+            },
+            "imageURL": "serkan.jpeg"
         }
     ],
     "services": [
@@ -85,20 +104,24 @@
     ],
     "products": [
         {
+            "id":0,
             "name": "hadibibul",
             "subTitle": "Türkiye'nin En İyi Öğrenci Platformu!",
             "description": "Türkiye'deki tüm üniversite öğrencilerinin ihtiyaç duydukları birbileri ile olan iletişim ağı olmak ve üniversite hayatları boyunca gerek görülen ders notu, ev devri/ev arkadaşı, ev eşyası gibi konularda ara buluculuğu hızlandırmak ve kolaylaştırmak.",
             "imageURL": "hadibibul.png",
             "category": "Web & Mobil Servis",
-            "date": "Haziran 2019"
+            "date": "Haziran 2019",
+            "client":"chronobi"
         },
-        {
+        {   
+            "id":1,
             "name": "PARS",
             "subTitle": "Uçtan Uca Şifreleme!",
             "description": "PARS iki kişi arasında yüksek güvenlikli mesajlaşma altyapısı sunan bir sistemdir. Kullanıcılara özel atanan anahtarlar ile yüksek seviyede güvenlik ile iletişim sunar.",
             "imageURL": "pars.png",
             "category": "Web & Mobil Servis",
-            "date": "Kasım 2019"
+            "date": "Kasım 2019",
+            "client":"chronobi"
         }
     ],
     "about": [
@@ -119,11 +142,17 @@
             "description": "Üniversitemiz kulüplerinden Fütag'ın gerçekleştirdiği Capture The Flag(CTF) etkinliğinde birincilik başarımız!",
             "imageURL": "3.jpg",
             "date": "Aralık 2019"
+        },
+        {
+            "title": "Depremzedelere tatlı Dagıtımı",
+            "description": "Topluluk üyeleri olarak regaip kandili edeni ile çadır kentte kalan depremzedelere tatlı dagıtımı yapılmıştır.",
+            "imageURL": "5.jpg",
+            "date": "Şubat 2020"
         }
     ],
     "clients": [
         {
-            "logo": "https://hadibibul.com/images/LogoMakr_8EfKUO.png",
+            "logo": "hadibibul.png",
             "link": "https://hadibibul.com"
         }
     ],
