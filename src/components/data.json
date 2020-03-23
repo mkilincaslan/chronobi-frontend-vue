@@ -45,6 +45,16 @@
             "imageURL": "selin.jpeg"
         },
         {
+            "name": "SERKAN ",
+            "surname": "KOÇAK",
+            "tag": "Machine Design & Machine Architecture",
+            "socialMedia": {
+                "ln": "https://www.linkedin.com/in/serkan-ko%C3%A7ak-864162168/",
+                "in": "https://www.instagram.com/serkankocakk3/"
+            },
+            "imageURL": "serkan.jpeg"
+        },
+        {
             "name": "ENGİNCAN",
             "surname": "ÖZKAN",
             "tag": "Mobil Developing And Deep Learning",
@@ -97,16 +107,6 @@
                 "in": "https://instagram.com/af.ceyran?igshid=vr7yc9cwr4uk"
             },
             "imageURL": "furkan.jpg"
-        },
-        {
-            "name": "SERKAN ",
-            "surname": "KOÇAK",
-            "tag": "Makine Mühendisi",
-            "socialMedia": {
-                "ln": "https://www.linkedin.com/in/serkan-ko%C3%A7ak-864162168/",
-                "in": "https://www.instagram.com/serkankocakk3/"
-            },
-            "imageURL": "serkan.jpeg"
         },
         {
             "name": "MERT",
