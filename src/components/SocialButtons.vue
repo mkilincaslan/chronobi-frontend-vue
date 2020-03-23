@@ -10,11 +10,11 @@
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
-            <li class="list-inline-item" v-show="item.ln">
+            <!-- <li class="list-inline-item" v-show="item.ln">
               <a :href="item.ln">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-            </li>
+            </li> -->
             <li class="list-inline-item" v-show="item.in">
               <a :href="item.in">
                 <i class="fab fa-instagram"></i>

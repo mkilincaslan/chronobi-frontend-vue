@@ -28,7 +28,7 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($(window).scrollTop() > 700) {
+    if ($(window).scrollTop() > 650) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
       $("#mainNav").removeClass("navbar-shrink");

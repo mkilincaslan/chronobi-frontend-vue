@@ -3,9 +3,9 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <div class="intro-lead-in">Aramıza Hoşgeldiniz!</div>
+        <div class="intro-heading">chronobi Ekibi Gururla...</div>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Seyirciler Hazır Mıyız?</a>
       </div>
     </div>
   </header>
