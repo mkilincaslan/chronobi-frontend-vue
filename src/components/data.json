@@ -157,7 +157,7 @@
             "name": "hadibibul",
             "subTitle": "Türkiye'nin En İyi Öğrenci Platformu!",
             "description": "Türkiye'deki tüm üniversite öğrencilerinin ihtiyaç duydukları birbileri ile olan iletişim ağı olmak ve üniversite hayatları boyunca gerek görülen ders notu, ev devri/ev arkadaşı, ev eşyası gibi konularda ara buluculuğu hızlandırmak ve kolaylaştırmak.",
-            "imageURL": "hadibibul.png",
+            "imageURL": "hadibibul1.jpeg",
             "category": "Web & Mobil Servis",
             "date": "Haziran 2019",
             "client":"chronobi"
@@ -170,6 +170,16 @@
             "imageURL": "pars.png",
             "category": "Web & Mobil Servis",
             "date": "Kasım 2019",
+            "client":"chronobi"
+        },
+        {   
+            "id":2,
+            "name": "takilio",
+            "subTitle": "Mobil Eğlence Uygulaması!",
+            "description": "Takilio, kullanıcıları için dünyanın her yerinden filmleri, dizileri, oyunları ve kitapları avuçlarınızın içine getiren bir mobil uygulamadır.",
+            "imageURL": "takilio.png",
+            "category": "Mobil Servis",
+            "date": "Mayıs 2020",
             "client":"chronobi"
         }
     ],

@@ -1,12 +1,12 @@
 <template>
       <div class="col-md-4 col-sm-6 portfolio-item">
-      <a class="portfolio-link" data-toggle="modal" :value="item.id" :href="'#portfolioModal'+item.id">
+      <a class="portfolio-link text-center" data-toggle="modal" :value="item.id" :href="'#portfolioModal'+item.id">
         <div class="portfolio-hover">
-          <div class="portfolio-hover-content">
+          <div class="portfolio-hover-content text-center">
             <i class="fas fa-plus fa-3x"></i>
           </div>
         </div>
-        <img class="img-fluid" v-bind:src="imagepath +item.imageURL" alt="">
+        <img class="img-fluid img-responsive" style="max-width: 100%; height: auto;" v-bind:src="imagepath +item.imageURL" v-bind:alt='item.imageURL'>
       </a>
       <div class="portfolio-caption">
         <h4>{{item.name}}</h4>
