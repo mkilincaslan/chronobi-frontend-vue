@@ -160,7 +160,8 @@
             "imageURL": "hadibibul1.jpeg",
             "category": "Web & Mobil Servis",
             "date": "Haziran 2019",
-            "client":"chronobi"
+            "client":"chronobi",
+            "url": "https://www.hadibibul.com"
         },
         {   
             "id":1,
@@ -170,7 +171,8 @@
             "imageURL": "pars.png",
             "category": "Web & Mobil Servis",
             "date": "Kasım 2019",
-            "client":"chronobi"
+            "client":"chronobi",
+            "url": "#"
         },
         {   
             "id":2,
@@ -180,7 +182,8 @@
             "imageURL": "takilio.png",
             "category": "Mobil Servis",
             "date": "Mayıs 2020",
-            "client":"chronobi"
+            "client":"chronobi",
+            "url": "https://www.takilio.com"
         }
     ],
     "about": [

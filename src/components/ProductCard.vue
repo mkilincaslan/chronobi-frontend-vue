@@ -9,7 +9,7 @@
         <img class="img-fluid img-responsive" style="max-width: 100%; height: auto;" v-bind:src="imagepath +item.imageURL" v-bind:alt='item.imageURL'>
       </a>
       <div class="portfolio-caption">
-        <h4>{{item.name}}</h4>
+        <h4><a :href='item.url' style="text-decoration: none">{{item.name}}</a></h4>
         <p class="text-muted">{{item.subTitle}}</p>
       </div>
     </div>
