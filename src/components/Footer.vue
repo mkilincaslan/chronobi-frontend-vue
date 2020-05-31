@@ -4,12 +4,12 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; chronobi 2019</span>
         </div>
         <div class="col-md-4">
           <app-social-buttons :item="item" />
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="/privacy">Privacy Policy</a>
@@ -18,7 +18,7 @@
               <a href="/term-of-use">Terms of Use</a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>

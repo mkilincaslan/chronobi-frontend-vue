@@ -14,9 +14,9 @@
             <app-About-Card v-for="item in items" v-bind:key='item.id' v-bind:item="item"/>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
+                <h4>Serüven
+                  <br>Yeni
+                  <br>Başlıyor!</h4>
               </div>
             </li>
           </ul>
