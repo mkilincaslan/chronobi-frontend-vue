@@ -1,7 +1,7 @@
 <template>
   <!-- Navigation -->
   <div class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container" style="display: flex; flex-direction: row;">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <img src="../../public/assets/logo.png" alt="logo" width="25%" height="15%">
       </a>
